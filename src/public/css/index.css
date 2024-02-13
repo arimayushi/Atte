@@ -1,0 +1,67 @@
+.attendance__alert {
+  display: flex;
+  text-align: center;
+  width: 188vw;
+  background: whitesmoke;
+  margin: 0 auto;
+}
+
+.attendance__alert--success {
+  padding: 10px 30px;
+  border-color: #badbcc;
+  background-color: #d1e7dd;
+  color: #0f5132;
+}
+
+.attendance__alert--danger {
+  padding: 10px 0;
+  border-color: #f5c2c7;
+  background-color: #f8d7da;
+  color: #842029;
+}
+
+.attendance__alert--danger ul {
+  margin: 0;
+}
+
+.attendance__panel {
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  background: whitesmoke;
+  color: #000;
+}
+
+.attendance__button {
+  width: 100%;
+  display: flex;
+  /* color: black; */
+  /* text-align: center; */
+}
+
+.attendance__button-submit {
+  padding: 5px 5px;
+  margin: 20px 20px;
+  width: 100%;
+  height: 130px;
+  border: none;
+  border-radius: 3px;
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+.attendance__content {
+  margin: 0 auto;
+  padding: 30px 15px;
+  max-width: 1230px;
+  background-color: whitesmoke;
+  /* float: left; */
+}
+
+.footer__inner {
+  background: #fff;
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+}
